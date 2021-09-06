@@ -1,5 +1,5 @@
-const productos = {
-    "cafeteria":[
+{
+    "productos":[
         {
             "id": 1,
             "nombre": "Hamburguesa Cheddar",
@@ -20,7 +20,7 @@ const productos = {
         },
         {
             "id": 4,
-            "nombre": "Perro sensillo",
+            "nombre": "Perro sencillo",
             "precio": "3.000",
             "img": "../img/cafeteria/perros-1.jpg"
         },
@@ -44,7 +44,7 @@ const productos = {
         },
         {
             "id": 8,
-            "nombre": "Pizza hawuaina",
+            "nombre": "Pizza hawaiana",
             "precio": "10.000",
             "img": "../img/cafeteria/pizza-2.jpg"
         },
@@ -53,7 +53,7 @@ const productos = {
             "nombre": "Pizza 2 x 1",
             "precio": "15.000",
             "img": "../img/cafeteria/pizza-3.jpg"
-        },
+        }
     ],
     "papeleria": [
         {
@@ -109,8 +109,6 @@ const productos = {
             "nombre": "Tijeras",
             "precio": "1.000",
             "img": "../img/libreria/tijeras.png"
-        },
+        }
     ]
 }
-
-export default productos;

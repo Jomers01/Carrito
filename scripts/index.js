@@ -10,7 +10,7 @@ const btnPapel = document.getElementById('papel');
 import productos from './data.js'
 
 //Cuando apenas se ejecute la pagina llamamos a que se muestre los articulos de la cafetería en pantalla
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', () => {
     mostarItemsCafeteria();
 });
 
@@ -18,22 +18,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
 btnCafe.addEventListener('click', mostarItemsCafeteria);
 btnPapel.addEventListener('click', mostarItemsPapeleria);
 
-function agregar(id){
-    console.log(id);
-}
-
 //Funcion para mostrar el contenido solo de la cafeteria 
-function mostarItemsCafeteria(){
+function mostarItemsCafeteria() {
     //Limpiamos el contenedor
-    contC.innerHTML= '';
+    contC.innerHTML = '';
 
     //Mostramos todos los productos del array
-    productos.cafeteria.forEach(items=> {
+    productos.cafeteria.forEach(items => {
         //Desectructuramos
         const { nombre, precio, img, id } = items;
         //Imprimimos
-        contC.innerHTML += 
-        `<div class="card" style="width: 12rem; margin-right: 20px; margin-top: 20px;">
+        contC.innerHTML +=
+            `<div class="card" style="width: 12rem; margin-right: 20px; margin-top: 20px;">
             <img src="${img}" class="card-img-top" alt="item" id="img">
             <div class="card-body">
                 <h5 class="card-title">${nombre}</h5>
@@ -45,17 +41,16 @@ function mostarItemsCafeteria(){
 }
 
 //Funcion para mostrar el contenido solo de la papaleria 
-function mostarItemsPapeleria(){
+function mostarItemsPapeleria() {
     //Limpiamos el contenedor
-    contC.innerHTML= '';
+    contC.innerHTML = '';
 
     //Mostramos todos los productos del array
-    if (true) {
-        productos.papeleria.forEach(items=> {
-            //Desectructuramos
-            const { nombre, precio, img, id } = items;
-            //Imprimimos
-            contC.innerHTML += 
+    productos.papeleria.forEach(items => {
+        //Desectructuramos
+        const { nombre, precio, img, id } = items;
+        //Imprimimos
+        contC.innerHTML +=
             `<div class="card" style="width: 12rem; margin-right: 20px; margin-top: 20px;">
                 <img src="${img}" class="card-img-top" alt="item">
                 <div class="card-body">
@@ -64,13 +59,15 @@ function mostarItemsPapeleria(){
                     <a class="btn btn-primary" onclick="agregar(id)" id="${id}">Agregar al carrito</a>
                 </div>
             </div>`
-        });
-    
-    }
+    });
+}
+
+function agregar(id) {
+    console.log(id);
 }
 
 //Mostrar contenido del carrito
-btnCart.addEventListener('click', ()=>{
+btnCart.addEventListener('click', () => {
     // cart.innerHTML = 
     // `<h1>Carrito</h1>
     // `
