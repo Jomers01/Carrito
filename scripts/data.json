@@ -3,70 +3,70 @@
         {
             "id": 1,
             "nombre": "Hamburguesa Cheddar",
-            "precio": "5.000",
+            "precio": "5000",
             "img": "../img/cafeteria/Hamburguesa-1.png",
             "categoria": "cafeteria"
         },
         {
             "id": 2,
             "nombre": "Hamburguesa Combo 1",
-            "precio": "15.000",
+            "precio": "15000",
             "img": "../img/cafeteria/hamburguesa-2.jpg",
             "categoria": "cafeteria"
         },
         {
             "id": 3,
             "nombre": "Hamburguesa Combo 2",
-            "precio": "12.000",
+            "precio": "12000",
             "img": "../img/cafeteria/hamburguesa-3.jpeg",
             "categoria": "cafeteria"
         },
         {
             "id": 4,
             "nombre": "Perro sencillo",
-            "precio": "3.000",
+            "precio": "3000",
             "img": "../img/cafeteria/perros-1.jpg",
             "categoria": "cafeteria"
         },
         {
             "id": 5,
             "nombre": "Perro de la Casa",
-            "precio": "6.000",
+            "precio": "6000",
             "img": "../img/cafeteria/perro-2.jpg",
             "categoria": "cafeteria"
         },
         {
             "id": 6,
             "nombre": "2 x 1 en combo",
-            "precio": "9.000",
+            "precio": "9000",
             "img": "../img/cafeteria/perro-3.png",
             "categoria": "cafeteria"
         },
         {
             "id": 7,
             "nombre": "Pizza pepperoni",
-            "precio": "12.000",
+            "precio": "12000",
             "img": "../img/cafeteria/pizza-1.jpg",
             "categoria": "cafeteria"
         },
         {
             "id": 8,
             "nombre": "Pizza hawaiana",
-            "precio": "10.000",
+            "precio": "10000",
             "img": "../img/cafeteria/pizza-2.jpg",
             "categoria": "cafeteria"
         },
         {
             "id": 9,
             "nombre": "Pizza 2 x 1",
-            "precio": "15.000",
+            "precio": "15000",
             "img": "../img/cafeteria/pizza-3.jpg",
             "categoria": "cafeteria"
         },
         {
             "id": 10,
             "nombre": "Boligrafo",
-            "precio": "1.000",
+            "precio": "1000",
             "img": "../img/libreria/boligrafros.jpg",
             "categoria": "papeleria"
         },
@@ -87,21 +87,21 @@
         {
             "id": 13,
             "nombre": "Cuaderno",
-            "precio": "2.000",
+            "precio": "2000",
             "img": "../img/libreria/cuadernos.jpg",
             "categoria": "papeleria"
         },
         {
             "id": 14,
             "nombre": "Lapiz",
-            "precio": "3.500",
+            "precio": "3500",
             "img": "../img/libreria/lapices.jpg",
             "categoria": "papeleria"
         },
         {
             "id": 15,
             "nombre": "Marcadores Norma",
-            "precio": "10.000",
+            "precio": "10000",
             "img": "../img/libreria/marcadores.webp",
             "categoria": "papeleria"
         },
@@ -115,14 +115,14 @@
         {
             "id": 17,
             "nombre": "Resma",
-            "precio": "10.000",
+            "precio": "10000",
             "img": "../img/libreria/remapapel.jpg",
             "categoria": "papeleria"
         },
         {
             "id": 18,
             "nombre": "Tijeras",
-            "precio": "1.000",
+            "precio": "1000",
             "img": "../img/libreria/tijeras.png",
             "categoria": "papeleria"
         }
