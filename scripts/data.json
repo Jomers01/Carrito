@@ -80,7 +80,7 @@
         {
             "id": 12,
             "nombre": "Cinta Adeciva",
-            "precio": "6.000",
+            "precio": "6000",
             "img": "../img/libreria/cinta.jpg",
             "categoria": "papeleria"
         },
